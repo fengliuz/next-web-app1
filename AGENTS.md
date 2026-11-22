@@ -16,7 +16,7 @@ Setiap kali diminta mengerjakan fitur atau perbaikan baru, ikuti urutan Git beri
 2. Pastikan berada di branch `main` terbaru (`git checkout main && git pull origin main`), lalu buat branch baru sesuai jenis tugas:
    - Fitur baru: `git checkout -b feat/<nama-fitur-singkat>`
    - Perbaikan bug: `git checkout -b fix/<nama-fix-singkat>`
-3. Kerjakan kode dan pastikan tidak ada error TypeScript/build (`npm run lint` atau `npm run build` jika relevan).
+3. Kerjakan kode dan pastikan tidak ada error TypeScript/build (`bun run lint` atau `bun run build` jika relevan).
 4. Lakukan stage dan commit dengan pesan yang jelas (*Conventional Commits*):
    - Contoh: `git add . && git commit -m "feat: add product catalog and search filter"`
 5. Push branch ke remote repository:
